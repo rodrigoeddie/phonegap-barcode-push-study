@@ -2,13 +2,10 @@
 # Phonegap - Barcode and Push
 
 ### Referências
-[Phonegap](http://phonegap.com/getstarted/)
-
-[Cordova](https://cordova.apache.org/docs/en/latest/guide/overview/)
-
-[Plugin - Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
-
-[Plugin - Push Notifications](https://github.com/phonegap/phonegap-plugin-push)
+* [Phonegap](http://phonegap.com/getstarted/)
+* [Cordova](https://cordova.apache.org/docs/en/latest/guide/overview/)
+* [Plugin - Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
+* [Plugin - Push Notifications](https://github.com/phonegap/phonegap-plugin-push)
 
 ### Instruções
 
