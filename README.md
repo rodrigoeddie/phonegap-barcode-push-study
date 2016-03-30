@@ -48,7 +48,7 @@ push.on('registration', function(data) {
     texto.innerHTML = data.registrationId;
     console.log(data.registrationId);
 });
-```
+``
 
 #### Barcode Scanner
 
@@ -64,15 +64,15 @@ config.xml (phonegap builder):
 
 Exemplo de utilização
 ```
-    cordova.plugins.barcodeScanner.scan(
-      function (result) {
-          alert("We got a barcode\n" +
-                "Result: " + result.text + "\n" +
-                "Format: " + result.format + "\n" +
-                "Cancelled: " + result.cancelled);
-      },
-      function (error) {
-          alert("Scanning failed: " + error);
-      }
-   );
+cordova.plugins.barcodeScanner.scan(
+  function (result) {
+      alert("We got a barcode\n" +
+            "Result: " + result.text + "\n" +
+            "Format: " + result.format + "\n" +
+            "Cancelled: " + result.cancelled);
+  },
+  function (error) {
+      alert("Scanning failed: " + error);
+  }
+);
 ```
