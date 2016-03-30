@@ -1,0 +1,7 @@
+platforms/*
+!platforms/.gitkeep
+plugins/*
+!plugins/.gitkeep
+Thumbs.db
+.DS_Store
+www.zip
