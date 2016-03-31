@@ -48,7 +48,7 @@ push.on('registration', function(data) {
     texto.innerHTML = data.registrationId;
     console.log(data.registrationId);
 });
-``
+```
 
 #### Barcode Scanner
 
