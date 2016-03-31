@@ -69,7 +69,7 @@ var app = {
         });
 
         push.on('error', function(e) {
-            console.log(e);
+            alert(e);
         });
     }
 };
