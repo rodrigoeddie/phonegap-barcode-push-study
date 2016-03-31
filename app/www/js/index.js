@@ -41,7 +41,8 @@ var app = {
 
         push.on('registration', function(data) {
             var regId = data.registrationId;
-            $.get( "http://162.243.3.240/a/teste-barcode-push/save_register_id.php", { regId: regId }, function(data){
+              alert(regId);
+            $.get( "http://162.243.3.240/a/teste-barcode-push/save_register_id.php?regId="+regId, function(data){
               alert(regId);
               alert(data);
             } );
