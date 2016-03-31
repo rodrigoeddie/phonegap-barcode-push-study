@@ -40,9 +40,8 @@ var app = {
         });
 
         push.on('registration', function(data) {
-            var texto = document.getElementById("texto");
-            texto.innerHTML = data.registrationId;
-            console.log(data.registrationId);
+            var regId = data.registrationId;
+            $.get( "http://162.243.3.240/a/teste-barcode-push/save_register_id.php", { regId: regId } );
         });
 
         push.on('notification', function(data) {
