@@ -41,7 +41,7 @@ var app = {
 
         push.on('registration', function(data) {
             var regId = data.registrationId;
-            console.log(regId);
+            alert(regId);
             $.ajax({
                 url: "http://162.243.3.240/a/teste-barcode-push/save_register_id.php?registra=true&callback=?",
                 data: "regId="+regId,
