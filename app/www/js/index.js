@@ -41,16 +41,10 @@ var app = {
 
         push.on('registration', function(data) {
             var regId = data.registrationId;
-            alert(regId);
             $.ajax({
                 url: "http://162.243.3.240/a/teste-barcode-push/save_register_id.php",
                 data: { "regId" : regId },
                 type: 'GET'
-            }).done(function() {
-              alert( "success" );
-            })
-            .fail(function() {
-              alert( "error" );
             });
         });
 

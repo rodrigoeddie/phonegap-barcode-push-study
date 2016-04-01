@@ -8,6 +8,7 @@
 * [Plugin - Push Notifications](https://github.com/phonegap/phonegap-plugin-push)
 * [Google Developers Console](https://console.developers.google.com/project?pli=1)
 * [Google Cloud Messaging](https://developers.google.com/cloud-messaging/gcm)
+* [Cordova plugin whitelist](https://github.com/apache/cordova-plugin-whitelist)
 
 ### Instruções
 
@@ -75,4 +76,11 @@ cordova.plugins.barcodeScanner.scan(
       alert("Scanning failed: " + error);
   }
 );
+```
+
+### Cordova Whitelist
+
+Proporcionou a utilização de ajax para servidor externo
+```
+<access origin="*"/>
 ```
