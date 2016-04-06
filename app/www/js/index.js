@@ -29,10 +29,10 @@ var app = {
     onDeviceReady: function() {
         var push = PushNotification.init({
             "android": {
-                "senderID": "20159675467"
+                "senderID": "83710916316"
             },
             "ios": {
-                "senderID"  : "20159675467",
+                "senderID"  : "83710916316",
                 "alert"     : true,
                 "sound"     : true,
                 "gcmSandbox": true

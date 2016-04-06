@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- <widget id="com.ionicframework.barcode361023" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"> -->
-<widget id="7442F8Z48Y.com.luego.testepush" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.luego.testepush" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>barcode</name>
   <description>
         An Ionic Framework and Cordova project.
@@ -21,7 +20,8 @@
 
   <preference name="android-build-tool" value="gradle" />
   <plugin name="phonegap-plugin-push" source="npm">
-      <param name="SENDER_ID" value="20159675467" />
+      <param name="SENDER_ID" value="83710916316" />
+      <param name="GOOGLE_APP_ID" value="1:83710916316:ios:bfc0d0af6e029a42" />
   </plugin>
 
   <platform name="android">
