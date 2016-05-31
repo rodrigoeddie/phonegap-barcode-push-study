@@ -21,8 +21,10 @@ function sendGoogleCloudMessage( $data, $ids )
 {
     // Insert real GCM API key from Google APIs Console
     // https://code.google.com/apis/console/
+    //20159675467
     // $apiKeyIOS = 'AIzaSyCcZxXXU4P8QLp5Lzcx-UxJvcGznicM0Y4';
-    $apiKey = 'AIzaSyA-AyqjHDsndVbkRAtWUu804mmeTUKJBl8';
+    // $apiKeyIOS = 'AIzaSyBLevrjSeqYyDSTWXzu8aFNAscdw8Ki4G8';
+    $apiKey = 'AIzaSyA-AyqjHDsndVbkRAtWUu804mmeTUKJBl8', 'AIzaSyBLevrjSeqYyDSTWXzu8aFNAscdw8Ki4G8';
 
     // Define URL to GCM endpoint
     $url = 'https://gcm-http.googleapis.com/gcm/send';

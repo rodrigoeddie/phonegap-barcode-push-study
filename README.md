@@ -16,6 +16,7 @@
 1. Sadastrar um projeto no Google Developers Console
 2. Pegar informações de senderID, e API KEY do GCM (Google Cloud Messaging)
 3. Após o registro do push é necessário salvar o registrationId do device em um banco a ser utilizado quando os notifications forem enviados.
+4. https://developers.google.com/mobile/add?platform=ios para cadastrar o certificado p12
 
 Shell:
 ```
